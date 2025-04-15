@@ -1,0 +1,78 @@
+.top {
+    margin: 40px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .choose {
+    background-color: #5aff15;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  .choose:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+  .textArea {
+    color: white;
+  }
+  
+  .upload {
+    border: none;
+    background-color: #13aa52;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload:hover {
+    background-color: #0f8a42;
+  }
+  
+  .upload:disabled,
+  .upload[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+  div {
+    padding: 5px 10px;
+  }
+
+  .file-upload-container {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #282c34;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #61dafb;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .file-name {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #a5efc1;
+  }
