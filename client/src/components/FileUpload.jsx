@@ -43,8 +43,8 @@ const FileUpload = ({ contract, account, provider }) => {
         const res = await axios.post("https://api.pinata.cloud/pinning/pinFileToIPFS", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
-            pinata_api_key: "3b452f5a8eb99672aacd", // Replace with your Pinata API Key
-            pinata_secret_api_key: "6fa294d3d499cbe74bc1160b2d48b87f4137b4980a66e2166d845b5299188a29", // Replace with your Pinata Secret Key
+            pinata_api_key: "b3fa364e432bc9d7f8e4", // Replace with your Pinata API Key
+            pinata_secret_api_key: "c5747b7187a09fdefac4555c671cc13e275d46a50fbb4eb758e01b209760e833", // Replace with your Pinata Secret Key
           },
         });
 

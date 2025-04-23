@@ -1,6 +1,7 @@
 import Upload from "./artifacts/contracts/Upload.sol/Upload.json";
 import { useState, useEffect } from "react";
 import { BrowserProvider, Contract } from "ethers";
+import Header from "./components/header";
 
 import "./App.css";
 import FileUpload from "./components/FileUpload";
@@ -49,14 +50,7 @@ function App() {
 
   return (
     <div className="app">
-      <header className="app-header">
-        <h1>Dstore</h1>
-        <p>
-          {account
-            ? `Connected Account: ${account}`
-            : "Please connect your wallet"}
-        </p>
-      </header>
+    <Header account={account} /> {/* Header Component */}
 
       {/* File Upload Component */}
       <FileUpload account={account} provider={provider} contract={contract} />
